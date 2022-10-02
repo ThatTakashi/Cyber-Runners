@@ -91,7 +91,7 @@ label1.image = img
 label1.pack()
 
 
-pin = customtkinter.CTkEntry(master=root, width=200, placeholder_text="Username")
+pin = customtkinter.CTkEntry(master=root, width=200, placeholder_text="Enter Username")
 pin.place(relx = 0.5, rely = 0.5, anchor = 'center')
 
 pin = customtkinter.CTkEntry(master=root, width=200, placeholder_text="Password")
