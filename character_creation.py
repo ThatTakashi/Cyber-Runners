@@ -41,6 +41,9 @@ def mainWin():
     homelbl = Label(main, text="Home", font=("Quicksand", 30), bg='#312d35', fg='#ffffff')
     homelbl.pack()
 
+    home_about_lbl = Label(main, text="Here you can access many core functions of the game")
+    home_about_lbl.pack()
+
 def loadingWin():
     loading = tk.Tk()
     loading.title('CyberRunners - Loading')
