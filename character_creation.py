@@ -91,7 +91,7 @@ label1.pack()
 pin = customtkinter.CTkEntry(master=root, width=200, placeholder_text="Enter Username")
 pin.place(relx = 0.5, rely = 0.5, anchor = 'center')
 
-pin = customtkinter.CTkEntry(master=root, width=200, placeholder_text="Password")
+pin = customtkinter.CTkEntry(master=root, width=200, placeholder_text="Enter Password")
 pin.place(relx = 0.5, rely = 0.57, anchor = 'center')
 
 button = customtkinter.CTkButton(master=root, text="Login", command=lambda: [time.sleep(1), loadingWin()]).place(relx = 0.5, rely = 0.65, anchor = 'center')
