@@ -38,6 +38,9 @@ def mainWin():
     home.image = homeimage
     home.pack()
 
+    homelbl = Label(main, text="Home", font=("Quicksand", 30), bg='#312d35', fg='#ffffff')
+    homelbl.pack()
+
 def loadingWin():
     loading = tk.Tk()
     loading.title('CyberRunners - Loading')
