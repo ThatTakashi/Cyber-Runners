@@ -101,7 +101,7 @@ pin = customtkinter.CTkEntry(master=root, width=200, placeholder_text="Enter Pas
 pin.place(relx = 0.5, rely = 0.57, anchor = 'center')
 
 button = customtkinter.CTkButton(master=root, text="Login", command=lambda: [time.sleep(1), loadingWin()]).place(relx = 0.5, rely = 0.65, anchor = 'center')
-credit = Label(text="Made By Takashi | Copyright 2022", fg="#ffffff", bg="#312d35")
+credit = Label(text="Made By Takashi | Copyright 2023", fg="#ffffff", bg="#312d35")
 credit.place(relx = 0.5, rely = 0.95, anchor = 'center')
 
 root.mainloop()
